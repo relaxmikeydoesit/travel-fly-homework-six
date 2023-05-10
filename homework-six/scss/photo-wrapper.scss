@@ -1,0 +1,25 @@
+.photo-wrapper {
+margin-top: 40px;
+    margin-bottom: 29px;
+    max-width: 981px;
+    min-height: 347px;
+    // background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -1;
+
+    .frame {
+        width: 298px;
+        height: 347px;
+        // background-color: oldlace;
+
+    }
+}
+
+@media only screen and (max-width: 830px){
+    .photo-wrapper {
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,88 @@
+.tour {
+    
+    width: 236px;
+    height: 304px;
+    // background-color: #00F9FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // margin-bottom: 55px;
+    
+
+
+
+    h1 {
+        font-size: 60px;
+        text-transform: uppercase;
+        font-family: "proxima-nova-extra-condensed";
+        color: #fff;
+        margin-bottom: -20px;
+    }
+
+
+    .price {
+        margin-bottom: 24px;
+        font-family: "proxima-nova-extra-condensed";
+        color: #fff;
+    }
+    
+    h2 {
+        font-size: 30px;
+        text-transform: lowercase;
+        font-family: "proxima-nova-extra-condensed";
+        color: #fff;
+    }
+
+    .learnMore {
+        padding: 5px 30px;
+        background-color: #79ADDC;
+        color: #fff;
+        border-radius: 15px;
+
+        text-transform: uppercase;
+        font-family: "gill-sans-nova";
+    margin-bottom: 25px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+    .israel {
+        background-image: url(../images/1\ israel.png);
+    }
+
+    .usa {
+        background-image: url(../images/2\ usa.png);
+    }
+
+    .australia {
+        background-image: url(../images/3\ australia.png);
+    }
+
+    .newZealand {
+        background-image: url(../images/4\ new\ zealand.png);
+    }
+
+    .france {
+        background-image: url(../images/5\ france.png);
+    }
+
+    .egypt {
+        background-image: url(../images/6\ egypt.png);
+    }
+
+    .japan {
+        background-image: url(../images/7\ japan.png);
+    }
+
+    .canada {
+        background-image: url(../images/8\ canada.png);
+    }
+
+    .uae {
+        background-image: url(../images/9\ uae.png);
+            }

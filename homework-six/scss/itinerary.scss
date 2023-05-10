@@ -1,0 +1,28 @@
+.itinerary {
+    max-width: 981px;
+    height: 800px;
+    // background-color: salmon;
+    margin: 0 auto;
+
+       .day {
+
+            .number {
+
+                    h4 {
+                        @include styledDay;
+                    }
+            }
+            .daily-info {
+                margin-bottom: 70px;
+                p {
+                    font-size: 16px;
+                    font-family: "gill-sans-nova";
+                    
+                    
+                }
+            }
+       }     
+       .booking-btn {
+        @include dotYay;
+       }
+}

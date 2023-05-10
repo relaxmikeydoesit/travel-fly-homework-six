@@ -1,0 +1,39 @@
+.tours-header {
+    max-width: 981px;
+    height: 200px;
+    // background-color: cadetblue;
+    background-image: url(../images/tours-header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    position: relative;
+    z-index: -1;
+    top: 142px;
+
+    .container {
+        position: relative;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        max-width: 981px;
+        height: 100%;
+    }
+    
+    .centered-title {
+        position: absolute;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+   
+        
+            p {
+            font-size: 60px;
+            font-family: "gill-sans-nova";
+            color: #fff;
+            text-align: center;
+           
+ 
+        }
+    }
+}

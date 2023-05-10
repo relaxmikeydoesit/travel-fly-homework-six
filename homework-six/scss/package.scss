@@ -1,0 +1,87 @@
+.package {
+    
+    max-width: 981px;
+    height: 413px;
+    // background-color: crimson;
+    // padding-top: 20px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -2;
+    left: 25px;
+    
+        .package-overlay {
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+
+        .tourWhere {
+            
+            margin-left: 30px;
+            h1 {
+                font-size: 80px;
+                font-weight: 600;
+                color: #fff;
+                font-family: "proxima-nova-extra-condensed";
+            }
+           }
+
+           .priceFrom {
+            
+                p {
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-family: "proxima-nova-extra-condensed";
+                    
+                    text-align: end;
+                    position: absolute;
+                    z-index: -1;
+                    bottom: -16px;
+                    right: 10px;
+           }
+
+        }
+    }
+}
+
+    .tour-01 {
+    background-image: url(../images/tour-01.png);
+
+}
+
+    .tour-02 {
+    background-image: url(../images/tour-02.png);
+}
+
+    .tour-03 {
+    background-image: url(../images/tour-03.png);
+}
+
+    .tour-04 {
+    background-image: url(../images/tour-04.png);
+}
+
+    .tour-05 {
+    background-image: url(../images/tour-05.png);
+}
+
+    .tour-06 {
+    background-image: url(../images/tour-06.png);
+}
+
+    .tour-07 {
+    background-image: url(../images/tour-07.png);
+}
+
+    .tour-08 {
+    background-image: url(../images/tour-08.png);
+}
+
+    .tour-09 {
+    background-image: url(../images/tour-09.png);
+        }
